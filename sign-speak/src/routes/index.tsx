@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const DEFAULT_WS = "ws://localhost:8000/ws/translate";
+const DEFAULT_WS = import.meta.env.VITE_WS_URL || "ws://localhost:8000/ws/translate";
 const CONFIDENCE_THRESHOLD = 0.8;
 const LETTER_HOLD_MS = 1500;
 
