@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rootDirectory": "sign-speak",
+  "framework": "vite",
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--experimental-require-module"
+    }
+  },
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/client"
+}
