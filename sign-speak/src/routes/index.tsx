@@ -213,7 +213,6 @@ function Index() {
         </div>
 
         <footer className="pt-2 text-center font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground/60">
-          Frontend on Lovable · Backend: FastAPI + MediaPipe + TensorFlow
         </footer>
       </div>
     </div>
