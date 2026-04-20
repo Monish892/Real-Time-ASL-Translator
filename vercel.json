@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "rootDirectory": "sign-speak",
   "framework": "vite",
   "build": {
     "env": {
