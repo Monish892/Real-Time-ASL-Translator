@@ -30,14 +30,14 @@ export function BackendSettings({ url, onChange }: Props) {
         <div className="space-y-3 border-t border-border px-5 py-4">
           <p className="text-xs text-muted-foreground">
             Point this at your running FastAPI backend, e.g.{" "}
-            <code className="text-primary">ws://localhost:8000/ws/translate</code> or a hosted
-            URL like <code className="text-primary">wss://your-api.onrender.com/ws/translate</code>.
+            <code className="text-primary">wss://real-time-asl-translator.onrender.com/ws/translate</code> or a local
+            URL like <code className="text-primary">ws://localhost:8000/ws/translate</code>.
           </p>
           <div className="flex gap-2">
             <Input
               value={draft}
               onChange={(e) => setDraft(e.target.value)}
-              placeholder="ws://localhost:8000/ws/translate"
+              placeholder="wss://real-time-asl-translator.onrender.com/ws/translate"
               className="font-mono text-xs"
             />
             <Button
